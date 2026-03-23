@@ -1,4 +1,6 @@
 function greetUser(name){
- console.log(`Hello, ${name}!, Welcome to Javascript`)
+    const greeting = `Hello, ${name}!, Welcome to Javascript`
+    console.log(greeting)
+    return greeting
 }
 greetUser("Emmanuel")
